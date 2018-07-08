@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/topLayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:keepScreenOn="true"
+    android:background="@android:color/black">
+
+
+  <FrameLayout
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_gravity="center_horizontal">
+
+    <com.google.android.gms.samples.vision.face.eyeware.ui.camera.CameraSourcePreview
+        android:id="@+id/preview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+
+
+      <com.google.android.gms.samples.vision.face.eyeware.ui.camera.GraphicOverlay
+          android:id="@+id/faceOverlay"
+          android:foreground="@android:color/transparent"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent" />
+
+    </com.google.android.gms.samples.vision.face.eyeware.ui.camera.CameraSourcePreview>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="wrap_content"
+          android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:text="Large Text"
+            android:id="@+id/txtFrameName"
+            android:textSize="30dp"
+            android:textColor="#ffffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:text="Medium Text"
+            android:id="@+id/txtFrameColor"
+            android:textColor="#ffffffff"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:text="Medium Text"
+            android:id="@+id/txtFramePrice"
+            android:textColor="#ffffffff" />
+      </LinearLayout>
+
+      <LinearLayout
+          android:orientation="vertical"
+          android:layout_width="match_parent"
+          android:layout_height="match_parent"
+          android:gravity="bottom|right">
+
+        <CheckBox
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Smile to Take Photo"
+            android:id="@+id/photoCheckBox"
+            android:textColor="#ffffffff"
+            android:buttonTint="#ffffffff" />
+      </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Checkout"
+        android:textAllCaps="false"
+        android:id="@+id/checkOutButton"
+        android:layout_gravity="center_horizontal|bottom"
+        android:minLines="2"
+        android:textSize="24sp" />
+
+  </FrameLayout>
+
+</LinearLayout>
