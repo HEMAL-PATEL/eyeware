@@ -32,7 +32,6 @@ The checkout screen is a simplified mockup of what could be expected were the ap
 
 The app also featured context-sensitive menus that changed depending on certain conditions. More specifically, the app only had four screens: 1) The welcome screen, 2) the selection screen, 3) the AR tryon screen, and 4) the checkout screen. Here, we can see that the selection screen changes appropriately whether they are shopping by gender or keyword, searching by frame type, searching in favorites, and such. If the user has no favorites, the screen will appropriately notify the user. If the user has favorites logged, they may clear their choices using a button that appears only when the user has selected "Favorites".
 
-Searching by keyword
 <p align="center">
 <img src="img/Screenshot_20160808-083056.png" width=25%> <img src="img/Screenshot_20160808-083107.png" width=25%> <img src="img/Screenshot_20160808-083532.jpg" width=25%>
 </p>
