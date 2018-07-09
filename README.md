@@ -20,7 +20,7 @@ A picture of each of the frames is displayed along with its color name and price
 <img src="img/Screenshot_20160808-084425.png" width=25%>
 </p>
 
-A first for any app at the time, users are able to preview the frames on their face **in real time**. The frames will move with the user's face, and scale and rotate appropriately depending on the 3D orientation of the user's head. The app also measured the user's "happiness" level from the Vision API to gauge user interest in the selected frames. In the interest of keeping the number of buttons to a minimum and fully engage the user, users could smile to both add the worn frames to "Favorites" and take a photo of them wearing the frames. This option was unchecked by default in respect of the user's privacy.
+A first for any Android app at the time, users are able to preview the frames on their face **in real time**. The frames will move with the user's face, and scale and rotate appropriately depending on the 3D orientation of the user's head. The app also measured the user's "happiness" level from the Vision API to gauge user interest in the selected frames. In the interest of keeping the number of buttons to a minimum and fully engage the user, users could smile to both add the worn frames to "Favorites" and take a photo of them wearing the frames. This option was unchecked by default in respect of the user's privacy.
 
 If the user is satisfied with the frames they selected, they may proceed to checkout directly within the app. 
 
@@ -37,3 +37,7 @@ The app also featured context-sensitive menus that changed depending on certain 
 </p>
 
 All frames are copyright Warby Parker. The express written consent to use modified images of Warby Parker's available frame lineup from Summer 2016 was obtained from their Press department and is presented here under their permission.
+
+==============================================
+
+To build Eyeware, simply import the project into Android Studio.
